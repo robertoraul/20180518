@@ -41,9 +41,13 @@ printf("Hay %d elementos: ", al_len(empleados));
 
 
 for(int i = 0 ; i<(al_len(empleados)); i++){
-    aux = (Employee*) al_get(empleados,i);
-    printf("%d--%s\n", aux->id, aux->name);
+    //aux = (Employee*) al_get(empleados,i);
+    employee_print( al_get(empleados,i));
+    //printf("\n%d--%s", aux->id, aux->name);
 }
+
+
+
 
     return 0;
 }
