@@ -43,7 +43,7 @@ vuelvo a reasignar tamaño ocn realloc pero ahora lo achico
     puntero = (int*)realloc(puntero,sizeof(int)*3);
     printf("muestra los primeros 3 :\n");
 
-    for(int i = 0; i<TAM; i++){
+    for(int i = 0; i<(TAM*2); i++){
         printf("%d\n",*(puntero +i));
     }
 
