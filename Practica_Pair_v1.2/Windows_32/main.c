@@ -52,7 +52,7 @@ al_add(empleados,e3);
 //al_add(empleados,&e);
 
 printf("Hay %d elementos: ", al_len(empleados));
-//printf("%s",al_sort(empleados,employee_compare,1));
+
 
 al_sort(empleados,employee_compare,0);
 
